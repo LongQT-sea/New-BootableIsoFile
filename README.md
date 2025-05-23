@@ -37,6 +37,15 @@ New-BootableIsoFile -SourceDir "C:\Win11_24H2_English_x64" -IsoPath "D:\ISO\Win1
 - `-IsoLabel` (Optional)  
   The label for the ISO volume. Defaults to the ISO filename.
 
+- `FileSystem` (Optional)
+  Provides detailed progress information during ISO creation. Defaults to 'UDF'.
+
+- `Force` (Optional)
+  Overwrites the destination ISO file if it already exists.
+
+- `Verbose` (Optional)
+  Provides detailed progress information during ISO creation.
+
 ---
 
 ## ⚠️ Notes
